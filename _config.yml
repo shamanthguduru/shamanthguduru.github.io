@@ -1,5 +1,3 @@
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-remote-theme
+theme: minmal
 title: Shamanth Guduru's Portfolio
 description: Aspiring Data Analyst | Passionate About Healthcare Analytics| Machine Learning | SQL | R | POWER-BI | Agile | Scrum | SDLC| Excel Dasboards|JASP
