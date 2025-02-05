@@ -1,1 +1,7 @@
-dum
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+h1, h2, h3 {
+    color: #0056b3;
+}
