@@ -1,8 +1,8 @@
-theme : minimal
+theme: minimal
 nav:
   - title: "Home"
     url: "/"
   - title: "Certifications"
     url: "/certifications"
 title: Shamanth Guduru's Portfolio
-description: Aspiring Data Analyst | Passionate About Healthcare Analytics| Machine Learning | SQL | R | POWER-BI | Agile | Scrum | SDLC| Excel Dasboards|JASP
+description: Aspiring Data Analyst | Passionate About Healthcare Analytics | Machine Learning | SQL | R | Power BI | Agile | Scrum | SDLC | Excel Dashboards | JASP
