@@ -1,3 +1,29 @@
-theme: minima
-title: Shamanth Guduru's Portfolio
-description: Aspiring Data Analyst | Passionate About Healthcare Analytics
+theme: jekyll-theme-yat
+title: "Shamanth Guduru's Portfolio"
+author: "Shamanth Guduru"
+description: "Aspiring Data Analyst | Passionate About Healthcare Analytics"
+logo: "/assets/profile.png"  # You can upload a profile image
+show_excerpts: true
+paginate: 5
+
+navbar:
+  - text: "Home"
+    url: "/"
+  - text: "Projects"
+    url: "/projects/"
+  - text: "Certifications"
+    url: "/certifications/"
+  - text: "About"
+    url: "/about/"
+
+social:
+  email: "shamanthguduru@gmail.com"
+  linkedin: "https://www.linkedin.com/in/shamanth-guduru/"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-archives
