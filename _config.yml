@@ -1,6 +1,6 @@
 title: "Shamanth Guduru's Portfolio"
 description: "Aspiring Data Analyst | Passionate About Healthcare Analytics"
-theme: "jekyll-theme-minimal"
+theme: "beautiful-jekyll" 
 
 url: "https://shamanthguduru.github.io"
 baseurl: ""  # leave this empty
