@@ -12,12 +12,10 @@ nav:
     url: "/"
   - title: "Certifications"
     url: "/Certifications"  # Update this to point to your actual projects page
- 
-  # Remove the About and Contact pages if you don't have them
-  # - title: "About"
-  #   url: "/about"
-  # - title: "Contact"
-  #   url: "/contact"
+  - title: "About"
+    url: "/about"
+  - title: "Contact"
+     url: "/contact"
 
 # Social Links (update with your real social profiles)
 social_links:
