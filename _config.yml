@@ -1,5 +1,4 @@
-theme: "minimal-mistakes" # Make sure this is the right theme name for GitHub Pages
-
+remote_theme: "mmistakes/minimal-mistakes@latest"  # Use this instead of `theme: minimal-mistakes`
 title: "Shamanth Guduru's Portfolio"
 email: "shamanthguduru@gmail.com"
 description: "Data Analytics Portfolio"
