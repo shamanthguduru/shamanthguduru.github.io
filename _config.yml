@@ -1,6 +1,14 @@
-theme: minima
+
 title: Shamanth Guduru's Portfolio
 description: Aspiring Data Analyst | Passionate About Healthcare Analytics
+title: Shamanth Guduru's Portfolio
+email: "shamanthguduru@gamil.com"
+description: >- 
+  Aspiring Data Analyst | Passionate About Healthcare Analytics
+baseurl: "" # leave empty for root domain
+url: "https://shamanthguduru.github.io" # your GitHub Pages URL
+twitter_username: "Gudurushamanth"
+github_username: "shamanthguduru"
 
 nav:
   - title: "Home"
