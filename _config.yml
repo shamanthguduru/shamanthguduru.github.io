@@ -1,11 +1,9 @@
+theme: "minimal-mistakes" # Make sure this is the right theme name for GitHub Pages
 
-title: Shamanth Guduru's Portfolio
-description: Aspiring Data Analyst | Passionate About Healthcare Analytics
-title: Shamanth Guduru's Portfolio
-email: "shamanthguduru@gamil.com"
-description: >- 
-  Aspiring Data Analyst | Passionate About Healthcare Analytics
-baseurl: "" # leave empty for root domain
+title: "Shamanth Guduru's Portfolio"
+email: "shamanthguduru@gmail.com"
+description: "Data Analytics Portfolio"
+baseurl: ""
 url: "https://shamanthguduru.github.io" # your GitHub Pages URL
 twitter_username: "Gudurushamanth"
 github_username: "shamanthguduru"
