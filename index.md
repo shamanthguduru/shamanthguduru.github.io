@@ -33,4 +33,4 @@ Short description of your project.
 
 ## 📩 Contact
 📧 **Email:** [shamanthguduru@gmail.com](mailto:shamanthguduru@gmail.com)  
-🔗 **LinkedIn:** [Connect Here](https://www.linkedin.com/in/shamanth-guduru/)  
+🔗 **LinkedIn:** [assets/images/linkedin.png](https://www.linkedin.com/in/shamanth-guduru/)  
