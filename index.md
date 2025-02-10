@@ -1,7 +1,6 @@
 ---
 layout: home
 title: "Shamanth Guduru's Portfolio"
-permalink: /
 ---
 
 # Welcome to My Portfolio 👋
@@ -33,4 +32,4 @@ Short description of your project.
 
 ## 📩 Contact
 📧 **Email:** [shamanthguduru@gmail.com](mailto:shamanthguduru@gmail.com)  
-🔗 **LinkedIn:** [assets/images/linkedin.png](https://www.linkedin.com/in/shamanth-guduru/)  
+🔗 **LinkedIn:** [![LinkedIn](assets/images/linkedin.png)](https://www.linkedin.com/in/shamanth-guduru/)   
