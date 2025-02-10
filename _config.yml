@@ -25,3 +25,10 @@ social_links:
 
 # Favicon settings
 favicon: "/assets/images/favicon.ico"  # Make sure the favicon exists in the correct folder
+# Minima Theme Customization
+minima:
+  skin: dark  # Options: auto, classic, dark, solarized
+  date_format: "%b %-d, %Y"
+  social_links:
+    - { platform: github,  user_url: "https://github.com/shamanthguduru" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/shamanth-guduru/" }
