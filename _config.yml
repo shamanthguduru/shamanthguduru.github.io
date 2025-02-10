@@ -1,4 +1,6 @@
 remote_theme: "jeffreytse/jekyll-theme-yat"
+sass:
+  style: compressed
 plugins:
   - jekyll-remote-theme
 title: "Shamanth Guduru's Portfolio"
