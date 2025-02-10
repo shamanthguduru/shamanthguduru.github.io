@@ -15,7 +15,7 @@ nav:
   - title: "About"
     url: "/about"
   - title: "Contact"
-     url: "/contact"
+    url: "/contact"
 
 # Social Links (update with your real social profiles)
 social_links:
