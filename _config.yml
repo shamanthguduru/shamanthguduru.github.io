@@ -1,9 +1,8 @@
-
 title: "Shamanth Guduru's Portfolio"
 description: "Aspiring Data Analyst | Passionate About Healthcare Analytics"
 theme: "beautifullyjekyll"
 
-url: "https://shamanthguduru.github.io"  # replace with your GitHub Pages URL
+url: "https://shamanthguduru.github.io"
 baseurl: ""  # leave this empty
 
 # Navigation settings
@@ -11,7 +10,7 @@ nav:
   - title: "Home"
     url: "/"
   - title: "Certifications"
-    url: "/Certifications"  # Update this to point to your actual projects page
+    url: "/Certifications"  # Ensure this page exists or create it
   - title: "About"
     url: "/about"
   - title: "Contact"
@@ -25,4 +24,4 @@ social_links:
     url: "https://www.linkedin.com/in/shamanth-guduru/"
 
 # Favicon settings
-favicon: "/assets/images/favicon.ico"
+favicon: "/assets/images/favicon.ico"  # Make sure the favicon exists in the correct folder
