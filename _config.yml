@@ -1,4 +1,6 @@
-theme: jekyll-theme-yat
+remote_theme: "jeffreytse/jekyll-theme-yat"
+plugins:
+  - jekyll-remote-theme
 title: "Shamanth Guduru's Portfolio"
 author: "Shamanth Guduru"
 description: "Aspiring Data Analyst | Passionate About Healthcare Analytics"
