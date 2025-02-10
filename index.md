@@ -12,4 +12,5 @@ Hi, I'm Shamanth Guduru ! I specialize in data analytics, with experience in Pyt
 
 ## Contact  
 📧 Email: shamanthguduru@gmail.com 
+
 📌 [LinkedIn](https://www.linkedin.com/in/shamanth-guduru/)  
