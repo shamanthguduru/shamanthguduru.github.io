@@ -25,7 +25,7 @@ jobs:
     - name: Install dependencies
       run: |
         gem install jekyll
-        gem install beautifullyjekyll
+        gem install beautiful-jekyll  # Corrected theme name
 
     - name: Build the Jekyll site
       run: |
