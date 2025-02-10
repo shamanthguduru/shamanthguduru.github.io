@@ -15,10 +15,7 @@ nav:
     url: "/"
   - title: "Certifications"
     url: "/certifications"
-  - title: "About"
-    url: "/about"
-  - title: "Blog"
-    url: "/blog"
+  
 
 # Social Links
 social_links:
