@@ -5,16 +5,11 @@ theme: minima
 url: "https://shamanthguduru.github.io"
 baseurl: ""  # leave this empty
 
-# Navigation settings
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Certifications"
-    url: "/Certifications"  # Ensure this page exists or create it
-  - title: "About"
-    url: "/about"
-  - title: "Contact"
-    url: "/contact"
+header_pages:
+  - index.md
+  - certifications.md
+  - about.md
+  - contact.md
 
 # Social Links (update with your real social profiles)
 social_links:
