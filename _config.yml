@@ -11,12 +11,13 @@ header_pages:
   - about.md
   - contact.md
 
-# Social Links (update with your real social profiles)
+# Social Links (shows in footer)
 social_links:
-  - icon: "github"
-    url: "https://github.com/shamanthguduru"
-  - icon: "linkedin"
-    url: "https://www.linkedin.com/in/shamanth-guduru/"
+  github: shamanthguduru
+  linkedin: shamanth-guduru
+
+show_excerpts: true  # Shows short descriptions for posts
+
 
 # Favicon settings
 favicon: "/assets/images/favicon.ico"  # Make sure the favicon exists in the correct folder
