@@ -1,28 +1,3 @@
-title: "Shamanth Guduru's Portfolio"
-email: "shamanthguduru@gmail.com"
-description: "Data Analytics Portfolio"
-baseurl: ""  # leave empty for root domain
-url: "https://username.github.io"  # replace with your GitHub Pages URL
-
-# GitHub Pages-compatible theme
-remote_theme: "mmistakes/minimal-mistakes@latest"
-
-# Other global settings
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Certifications"
-    url: "/certifications"
-  - title: "About"
-    url: "/about"
-  - title: "Blog"
-    url: "/blog"
-
-social_links:
-  - icon: "github"
-    url: "https://github.com/your_github_username"
-  - icon: "linkedin"
-    url: "https://www.linkedin.com/in/shamanth-guduru/"
-
-google_analytics: "your-google-analytics-id"
-favicon: "/assets/images/favicon.ico"
+theme: minima
+title: Your Name's Portfolio
+description: Aspiring Data Analyst | Passionate About Healthcare Analytics
