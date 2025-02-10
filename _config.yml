@@ -10,8 +10,9 @@ baseurl: ""  # leave this empty
 nav:
   - title: "Home"
     url: "/"
-  - title: "Projects"
-    url: "/projects"  # Update this to point to your actual projects page
+  - title: "Certifications"
+    url: "/Certifications"  # Update this to point to your actual projects page
+ 
   # Remove the About and Contact pages if you don't have them
   # - title: "About"
   #   url: "/about"
