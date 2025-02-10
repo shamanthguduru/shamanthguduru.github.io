@@ -1,3 +1,29 @@
-theme: minima
-title: Shamanth Guduru's Portfolio
-description: Aspiring Data Analyst | Passionate About Healthcare Analytics
+
+title: "Shamanth Guduru's Portfolio"
+description: "Aspiring Data Analyst | Passionate About Healthcare Analytics"
+theme: "minima"
+
+url: "https://shamanthguduru.github.io"  # replace with your GitHub Pages URL
+baseurl: ""  # leave this empty
+
+# Navigation settings
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects"  # Update this to point to your actual projects page
+  # Remove the About and Contact pages if you don't have them
+  # - title: "About"
+  #   url: "/about"
+  # - title: "Contact"
+  #   url: "/contact"
+
+# Social Links (update with your real social profiles)
+social_links:
+  - icon: "github"
+    url: "https://github.com/shamanthguduru"
+  - icon: "linkedin"
+    url: "https://www.linkedin.com/in/shamanth-guduru/"
+
+# Favicon settings
+favicon: "/assets/images/favicon.ico"
