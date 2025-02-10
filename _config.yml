@@ -1,40 +1,28 @@
-remote_theme: "mmistakes/minimal-mistakes@latest"  # Use this instead of `theme: minimal-mistakes`
 title: "Shamanth Guduru's Portfolio"
 email: "shamanthguduru@gmail.com"
 description: "Data Analytics Portfolio"
-baseurl: ""
-url: "https://shamanthguduru.github.io" # your GitHub Pages URL
-twitter_username: "Gudurushamanth"
-github_username: "shamanthguduru"
+baseurl: ""  # leave empty for root domain
+url: "https://username.github.io"  # replace with your GitHub Pages URL
 
+# GitHub Pages-compatible theme
+remote_theme: "mmistakes/minimal-mistakes@latest"
+
+# Other global settings
 nav:
   - title: "Home"
     url: "/"
   - title: "Certifications"
     url: "/certifications"
-  
+  - title: "About"
+    url: "/about"
+  - title: "Blog"
+    url: "/blog"
 
-# Social Links
 social_links:
   - icon: "github"
-    url: "https://github.com/shamanthguduru"
+    url: "https://github.com/your_github_username"
   - icon: "linkedin"
     url: "https://www.linkedin.com/in/shamanth-guduru/"
 
-# Markdown settings
-markdown: kramdown
-kramdown:
-  input: GFM
-
-# Google Analytics (optional)
 google_analytics: "your-google-analytics-id"
 favicon: "/assets/images/favicon.ico"
-
-# Default page layout
-defaults:
-  - scope:
-      path: "certifications.md"
-    values:
-      layout: "page" # Page layout for markdown files
-
-
