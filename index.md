@@ -1,16 +1,36 @@
 ---
-layout: default
-title: Home
+layout: home
+title: "Shamanth Guduru's Portfolio"
+permalink: /
 ---
-# Welcome to My Portfolio  
-Hi, I'm Shamanth Guduru ! I specialize in data analytics, with experience in Python, SQL, and visualization tools.  
-## Projects  
-- [Project 1](https://github.com/your-username/project1)  
-- [Project 2](https://github.com/your-username/project2)
-  
 
+# Welcome to My Portfolio 👋
 
-## Contact  
-📧 Email: shamanthguduru@gmail.com 
+I’m **Shamanth Guduru**, an aspiring **Data Analyst** with a passion for **Healthcare Analytics**.  
+I specialize in:
+- 📊 **Data Visualization** (Tableau, Power BI)
+- 🐍 **Python & SQL** for Data Analytics
+- 🔍 **Machine Learning & Predictive Modeling**
+- ⚕️ **Healthcare Data Insights**
 
-[![LinkedIn](https://cdn-icons-png.flaticon.com/24/174/174857.png)](https://www.linkedin.com/in/shamanth-guduru/)   
+---
+
+## 🔥 Projects
+### 📈 **Project 1** – [View Project](#)
+Short description of your project.
+
+### 📊 **Project 2** – [View Project](#)
+Short description of your project.
+
+---
+
+## 📜 Certifications
+🔹 **Google Data Analytics Certificate**  
+🔹 **SQL for Data Science – Coursera**  
+🔹 **[More Certifications](certifications.md)**  
+
+---
+
+## 📩 Contact
+📧 **Email:** [shamanthguduru@gmail.com](mailto:shamanthguduru@gmail.com)  
+🔗 **LinkedIn:** [Connect Here](https://www.linkedin.com/in/shamanth-guduru/)  
