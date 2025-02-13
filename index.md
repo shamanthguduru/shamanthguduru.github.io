@@ -1,3 +1,7 @@
+---
+layout: home
+title: "Shamanth Guduru's Portfolio"
+---
 
 # Welcome to My Portfolio 👋
 
