@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -77,4 +76,12 @@
     </script>
 </body>
 </html>
- 
+ <footer>
+  <div class="toggle-container">
+    <label class="toggle-switch">
+      <input type="checkbox" id="dark-mode-toggle" />
+      <span class="slider"></span>
+    </label>
+  </div>
+</footer>
+
