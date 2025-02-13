@@ -18,9 +18,9 @@ social_links:
 
 show_excerpts: true  # Shows short descriptions for posts
 
-
 # Favicon settings
-favicon: "/assets/images/favicon.ico"  # Make sure the favicon exists in the correct folder
+favicon: "/assets/images/favicon.ico"  
+
 # Minima Theme Customization
 minima:
   skin: dark  # Options: auto, classic, dark, solarized
