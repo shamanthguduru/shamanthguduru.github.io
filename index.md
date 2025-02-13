@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "Welcome to My Portfolio"
+title: "Shamanth Guduru's Portfolio"
 ---
 
-# Welcome to My Portfolio 👋
+# Welcome to My Portfolio 👋  
 
 I’m **Shamanth Guduru**, an aspiring **Data Analyst** with a passion for **Healthcare Analytics**.  
-I specialize in:
-- 📊 **Data Visualization** (Tableau, Power BI)
-- 🐍 **Python & SQL** for Data Analytics
-- 🔍 **Machine Learning & Predictive Modeling**
-- ⚕️ **Healthcare Data Insights**
+I specialize in:  
+- 📊 **Data Visualization** (Tableau, Power BI)  
+- 🐍 **Python & SQL** for Data Analytics  
+- 🔍 **Machine Learning & Predictive Modeling**  
+- ⚕️ **Healthcare Data Insights**  
 
 ---
 
@@ -32,4 +32,4 @@ Short description of your project.
 
 ## 📩 Contact
 📧 **Email:** [shamanthguduru@gmail.com](mailto:shamanthguduru@gmail.com)  
-🔗 **LinkedIn:** [![LinkedIn](assets/images/linkedin.png)](https://www.linkedin.com/in/shamanth-guduru/)   
+🔗 **LinkedIn:** [![LinkedIn](assets/images/linkedin.png)](https://www.linkedin.com/in/shamanth-guduru/)  
