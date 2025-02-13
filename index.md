@@ -1,9 +1,4 @@
----
-layout: home
-title: "Shamanth Guduru's Portfolio"
----
-
-# Welcome to My Portfolio 👋
+# Welcome to My Portfolio 
 
 I’m **Shamanth Guduru**, an aspiring **Data Analyst** with a passion for **Healthcare Analytics**.  
 I specialize in:
