@@ -6,9 +6,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Shamanth Guduru's Portfolio</h1>
-    </header>
     
     <main>
         <section>
