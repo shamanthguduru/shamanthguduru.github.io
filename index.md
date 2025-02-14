@@ -16,10 +16,13 @@ Short description of your project.
 ### 📊 **Project 2** – [View Project](#)
 Short description of your project.
 
-## 📜 Certifications
-- **Google Data Analytics Certificate**
-- **SQL for Data Science – Coursera**
-- **[More Certifications](certifications.md)**  
+<h2>📜 Certifications</h2>
+<ul>
+    <li><strong>Google Data Analytics Certificate</strong></li>
+    <li><strong>SQL for Data Science – Coursera</strong></li>
+    <li><a href="certifications.md">More Certifications</a></li>
+</ul>
+
 
 ## 📩 Contact
 📧 **Email:** [shamanthguduru@gmail.com](mailto:shamanthguduru@gmail.com)  
