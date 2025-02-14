@@ -17,8 +17,8 @@ Short description of your project.
 Short description of your project.
 
 ## 📜 Certifications
-- **Google Data Analytics Certificate**  
-- **SQL for Data Science – Coursera**  
+- **Google Data Analytics Certificate**
+- **SQL for Data Science – Coursera**
 - **[More Certifications](certifications.md)**  
 
 ## 📩 Contact
