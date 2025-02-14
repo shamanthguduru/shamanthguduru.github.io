@@ -1,18 +1,36 @@
-<header>
-    <button onclick="toggleTheme()" class="theme-toggle">🌞 / 🌙</button>
-</header>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-<script>
-    function toggleTheme() {
-        let body = document.body;
-        body.classList.toggle('dark-mode');
-        localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
-    }
-    window.onload = () => {
-        if (localStorage.getItem('theme') === 'dark') {
-            document.body.classList.add('dark-mode');
+    <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+</head>
+<body>
+    <header>
+        <button onclick="toggleTheme()" class="theme-toggle">🌞 / 🌙</button>
+    </header>
+    
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>© 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            let body = document.body;
+            body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
         }
-    };
-</script>
+        window.onload = () => {
+            if (localStorage.getItem('theme') === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+        };
+    </script>
 </body>
+</html>
