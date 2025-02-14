@@ -1,9 +1,9 @@
 title: "Shamanth Guduru's Portfolio"
 description: "Aspiring Data Analyst | Passionate About Healthcare Analytics"
-theme: minima  # Default theme with dark mode support
+theme: minima
 
 url: "https://shamanthguduru.github.io"
-baseurl: ""  # Keep this empty
+baseurl: ""  # Leave this empty
 
 header_pages:
   - index.md
@@ -11,14 +11,19 @@ header_pages:
   - about.md
   - contact.md
 
-# Social Links (footer icons)
 social_links:
   github: shamanthguduru
   linkedin: shamanth-guduru
 
-show_excerpts: true  # Shows post previews
+show_excerpts: true  # Shows short descriptions for posts
+
+# Favicon settings
+favicon: "/assets/images/favicon.ico"  # Make sure the favicon exists in the correct folder
 
 # Minima Theme Customization
 minima:
-  skin: dark  # Enables dark mode
+  skin: dark  # Options: auto, classic, dark, solarized
   date_format: "%b %-d, %Y"
+  social_links:
+    - { platform: github, user_url: "https://github.com/shamanthguduru" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/shamanth-guduru/" }
