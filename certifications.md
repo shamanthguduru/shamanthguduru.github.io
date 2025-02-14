@@ -13,7 +13,7 @@ Here are some of my professional certifications:
 [View Certificate](https://www.coursera.org/account/accomplishments/verify/YZPY2YQCKL7Z)  
 
 ## 📜 Machine Learning for All – Coursera  
-![Machine Learning Cert](assets/images/certifications/machine-laerning-cert.jpg)
+![Machine Learning Cert](assets/images/certifications/machine-cert.jpg)
 [View Certificate](https://www.coursera.org/account/accomplishments/verify/CXBYPJP3X6VW)  
 
 More certifications coming soon! 🚀  
