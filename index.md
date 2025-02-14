@@ -4,7 +4,7 @@ title: "Shamanth Guduru's Portfolio"
 ---
 
 <div class="hero">
-    <img src="assets/images/profile.jpg" class="profile-pic">
+    <img src="assets/images/Profilepic.jpg" class="profile-pic">
     <h1>Shamanth Guduru</h1>
     <h2>Aspiring Data Analyst | Passionate About Healthcare Analytics</h2>
 </div>
