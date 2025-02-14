@@ -5,46 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
 </head>
 <body>
     <header>
-    <button class="hamburger" onclick="toggleMenu()">☰</button>
-    <nav id="menu" class="hidden">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/certifications">Certifications</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <nav id="menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/certifications">Certifications</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    
     <main>
         {{ content }}
     </main>
 
+    <button class="theme-toggle" onclick="toggleTheme()">🌞 / 🌙</button>
+
     <footer>
-        <p>© 2025 Your Name. All Rights Reserved.</p>
+        <p>© 2025 Shamanth Guduru. All Rights Reserved.</p>
     </footer>
 
     <script>
+        // Theme Toggle Function
         function toggleTheme() {
             let body = document.body;
             body.classList.toggle('dark-mode');
             localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
         }
+
+        // Check Local Storage for Theme Preference
         window.onload = () => {
             if (localStorage.getItem('theme') === 'dark') {
                 document.body.classList.add('dark-mode');
             }
         };
-    </script>
-    function toggleMenu() {
-    let menu = document.getElementById("menu");
-    menu.classList.toggle("hidden");
-}
 
+        // Navbar Toggle
+        function toggleMenu() {
+            let menu = document.getElementById("menu");
+            menu.classList.toggle("show");
+        }
+    </script>
 </body>
 </html>
