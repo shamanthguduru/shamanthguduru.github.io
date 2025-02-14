@@ -20,7 +20,7 @@ Short description of your project.
 <ul>
     <li><strong>Google Data Analytics Certificate</strong></li>
     <li><strong>SQL for Data Science – Coursera</strong></li>
-    <li><a href="/certifications">More Certifications</a></li>
+    <li><a href="certifications.md">More Certifications</a></li>
 </ul>
 
 
