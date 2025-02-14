@@ -6,7 +6,7 @@ title: "Shamanth Guduru's Portfolio"
 <div class="hero">
     <img src="assets/images/Profilepic.jpg" class="profile-pic">
     <h1>Shamanth Guduru</h1>
-    <h2>Aspiring Data Analyst | Passionate About Healthcare Analytics</h2>
+    <h2>Aspiring Data Analyst | Business Anyltics Graduate @KSU</h2>
 </div>
 
 ## 🔥 Projects
