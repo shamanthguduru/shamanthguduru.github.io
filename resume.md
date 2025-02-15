@@ -8,17 +8,21 @@
     <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
     <style>
         :root {
-            --light-bg: #ffffff;
+            --light-bg: #f5faff;
             --light-text: #000000;
-            --dark-bg: #222;
+            --dark-bg: #181818;
             --dark-text: #ffffff;
             --dark-collapsible: #333;
-            --light-collapsible: #ddd;
+            --light-collapsible: #e0e8f0;
+            --primary-blue: #0056b3;
+            --border-radius: 8px;
         }
 
         body {
             background-color: var(--light-bg);
             color: var(--light-text);
+            font-family: Arial, sans-serif;
+            padding: 20px;
         }
 
         .dark-mode {
@@ -28,20 +32,29 @@
 
         h1 {
             text-align: left;
-            margin-left: 20%;
+            margin-left: 10%;
+            font-size: 2em;
+            font-weight: bold;
         }
 
         .collapsible {
             background-color: var(--light-collapsible);
-            color: var(--light-text);
+            color: var(--primary-blue);
             cursor: pointer;
-            padding: 10px;
-            width: 100%;
+            padding: 12px;
+            width: 80%;
             text-align: left;
             border: none;
             outline: none;
-            font-size: 1.1em;
-            margin: 10px 20%;
+            font-size: 1.2em;
+            border-radius: var(--border-radius);
+            margin: 10px auto;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        .collapsible:hover {
+            background-color: #cfe2f3;
         }
 
         .dark-mode .collapsible {
@@ -50,15 +63,24 @@
         }
 
         .content {
-            padding: 0 15px;
+            padding: 15px;
             display: none;
             overflow: hidden;
             background-color: var(--light-bg);
-            margin: 0 20%;
+            width: 80%;
+            margin: 0 auto;
+            border-left: 4px solid var(--primary-blue);
         }
 
         .dark-mode .content {
             background-color: var(--dark-bg);
+            border-left: 4px solid #bbb;
+        }
+
+        .toggle-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
         }
     </style>
 </head>
@@ -103,12 +125,16 @@
             });
 
             const toggleSwitch = document.getElementById("theme-toggle");
-            if (toggleSwitch) {
-                toggleSwitch.addEventListener("change", function() {
-                    document.body.classList.toggle("dark-mode", this.checked);
-                });
-            }
+            toggleSwitch.addEventListener("change", function() {
+                document.body.classList.toggle("dark-mode", this.checked);
+            });
         });
     </script>
+
+    <!-- Theme Toggle Switch -->
+    <div class="toggle-container">
+        <input type="checkbox" id="theme-toggle" class="toggle-checkbox">
+        <label for="theme-toggle" class="toggle-label"></label>
+    </div>
 </body>
 </html>
