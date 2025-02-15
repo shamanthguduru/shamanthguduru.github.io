@@ -1,19 +1,26 @@
-<style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+    <style>
         .nav-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 10px;
         }
-        .social-links {
+        .social-links, .nav-links {
             display: flex;
             align-items: center;
             gap: 15px;
         }
         .nav-links {
-            display: flex;
-            gap: 10px;
-            font-size: 0.9em;
+            font-size: 0.8em;
         }
     </style>
 </head>
@@ -30,11 +37,11 @@
                 <a href="https://github.com/shamanthguduru" target="_blank" title="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
-            </div>
-            <div class="nav-links">
-                <a href="/certifications" title="Certifications">Certifications</a>
-                <a href="/projects" title="Projects">Projects</a>
-                <a href="/resume" title="Resume">Resume</a>
+                <div class="nav-links">
+                    <a href="/certifications" title="Certifications">Certifications</a>
+                    <a href="/projects" title="Projects">Projects</a>
+                    <a href="/resume" title="Resume">Resume</a>
+                </div>
             </div>
         </div>
     </header>
