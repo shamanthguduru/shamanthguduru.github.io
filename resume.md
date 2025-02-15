@@ -20,25 +20,11 @@
         body {
             background-color: var(--light-bg);
             color: var(--light-text);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
 
         .dark-mode {
             background-color: var(--dark-bg);
             color: var(--dark-text);
-        }
-
-        main {
-            width: 80%;
-            max-width: 800px;
-            margin: 50px auto;
-        }
-
-        h1 {
-            text-align: left;
-            margin-left: 20px;
         }
 
         .collapsible {
@@ -51,7 +37,6 @@
             border: none;
             outline: none;
             font-size: 1.1em;
-            margin-top: 10px;
         }
 
         .dark-mode .collapsible {
@@ -72,6 +57,30 @@
     </style>
 </head>
 <body>
+    <header>
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="/">Shamanth Guduru</a>
+            </div>
+            <div class="social-links">
+                <a href="mailto:shamanthguduru@gmail.com" target="_blank" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/shamanth-guduru/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/shamanthguduru" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <div class="nav-links">
+                    <a href="/certifications" title="Certifications">Certifications</a>
+                    <a href="/projects" title="Projects">Projects</a>
+                    <a href="/resume" title="Resume">Resume</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <main>
         <h1>My Resume</h1>
         
@@ -123,5 +132,9 @@
         <input type="checkbox" id="theme-toggle" class="toggle-checkbox">
         <label for="theme-toggle" class="toggle-label"></label>
     </div>
+
+    <footer>
+        <p>© 2025 Shamanth Guduru. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
