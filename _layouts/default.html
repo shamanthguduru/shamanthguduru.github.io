@@ -14,19 +14,34 @@
             align-items: center;
             padding: 10px;
         }
-        .social-links, .nav-links {
+        .nav-left {
+            display: flex;
+            align-items: center;
+        }
+        .nav-left a {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            color: inherit;
+        }
+        .social-links {
             display: flex;
             align-items: center;
             gap: 15px;
         }
         .nav-links {
-            font-size: 0.8em;
+            display: flex;
+            gap: 10px;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="nav-container">
+            <div class="nav-left">
+                <a href="/">Shamanth Guduru</a>
+            </div>
             <div class="social-links">
                 <a href="mailto:shamanthguduru@gmail.com" target="_blank" title="Email">
                     <i class="fas fa-envelope"></i>
