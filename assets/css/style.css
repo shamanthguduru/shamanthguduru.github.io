@@ -138,4 +138,17 @@ ul {
 li {
     margin-bottom: 5px; /* Adds space for readability */
 }
+.certifications img {
+    max-width: 300px; /* Adjust width as needed */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Soft shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+.certifications img:hover {
+    transform: scale(1.05); /* Smooth hover effect */
+}
 
