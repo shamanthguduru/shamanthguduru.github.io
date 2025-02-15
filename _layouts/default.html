@@ -27,11 +27,10 @@
         {{ content }}
     </main>
 
-    <div class="theme-toggle-container">
-        <label class="theme-toggle">
-            <input type="checkbox" id="theme-switch" onclick="toggleTheme()">
-            <span class="slider"></span>
-        </label>
+    <!-- Theme Toggle Switch -->
+    <div class="toggle-container">
+        <input type="checkbox" id="theme-toggle" class="toggle-checkbox">
+        <label for="theme-toggle" class="toggle-label"></label>
     </div>
 
     <footer>
@@ -39,20 +38,27 @@
     </footer>
 
     <script>
+        // Theme Toggle Function
         function toggleTheme() {
             let body = document.body;
-            body.classList.toggle('dark-mode');
-            let isDark = body.classList.contains('dark-mode');
-            localStorage.setItem('theme', isDark ? 'dark' : 'light');
-            document.getElementById('theme-switch').checked = isDark;
+            let toggle = document.getElementById('theme-toggle');
+            if (toggle.checked) {
+                body.classList.add('dark-mode');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('theme', 'light');
+            }
         }
 
+        // Check Local Storage for Theme Preference
         window.onload = () => {
-            let isDark = localStorage.getItem('theme') === 'dark';
-            if (isDark) {
+            let toggle = document.getElementById('theme-toggle');
+            if (localStorage.getItem('theme') === 'dark') {
                 document.body.classList.add('dark-mode');
-                document.getElementById('theme-switch').checked = true;
+                toggle.checked = true;
             }
+            toggle.addEventListener('change', toggleTheme);
         };
     </script>
 </body>
