@@ -9,11 +9,15 @@ permalink: /certifications/
 Here are some of my professional certifications:
 
 ## 📜 Data Structures with Python – Coursera  
-![Python Cert](assets/images/certifications/python-cert.jpg)  
+<div class="certifications">
+    <img src="assets/images/certifications/python-cert.jpg" alt="Python Certification">
+</div>  
 [View Certificate](https://www.coursera.org/account/accomplishments/verify/YZPY2YQCKL7Z)  
 
 ## 📜 Machine Learning for All – Coursera  
-![Machine Learning Cert](assets/images/certifications/machine-cert.jpg)
+<div class="certifications">
+    <img src="assets/images/certifications/machine-cert.jpg" alt="Machine Learning Certification">
+</div>  
 [View Certificate](https://www.coursera.org/account/accomplishments/verify/CXBYPJP3X6VW)  
 
 More certifications coming soon! 🚀  
