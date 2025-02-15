@@ -8,35 +8,28 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
     <style>
-        .nav-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px;
+        :root {
+            --light-bg: #ffffff;
+            --light-text: #000000;
+            --dark-bg: #222;
+            --dark-text: #ffffff;
+            --dark-collapsible: #444;
+            --light-collapsible: #ddd;
         }
-        .nav-left {
-            display: flex;
-            align-items: center;
+
+        body {
+            background-color: var(--light-bg);
+            color: var(--light-text);
         }
-        .nav-left a {
-            font-size: 1.2em;
-            font-weight: bold;
-            text-decoration: none;
-            color: inherit;
+
+        .dark-mode {
+            background-color: var(--dark-bg);
+            color: var(--dark-text);
         }
-        .social-links {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-        .nav-links {
-            display: flex;
-            gap: 10px;
-            font-size: 0.9em;
-        }
+
         .collapsible {
-            background-color: #444;
-            color: white;
+            background-color: var(--light-collapsible);
+            color: var(--light-text);
             cursor: pointer;
             padding: 10px;
             width: 100%;
@@ -45,11 +38,21 @@
             outline: none;
             font-size: 1.1em;
         }
+
+        .dark-mode .collapsible {
+            background-color: var(--dark-collapsible);
+            color: var(--dark-text);
+        }
+
         .content {
             padding: 0 15px;
             display: none;
             overflow: hidden;
-            background-color: #222;
+            background-color: var(--light-bg);
+        }
+
+        .dark-mode .content {
+            background-color: var(--dark-bg);
         }
     </style>
 </head>
@@ -115,6 +118,11 @@
                         content.style.display = "block";
                     }
                 });
+            });
+
+            const toggleSwitch = document.getElementById("theme-toggle");
+            toggleSwitch.addEventListener("change", function() {
+                document.body.classList.toggle("dark-mode", this.checked);
             });
         });
     </script>
