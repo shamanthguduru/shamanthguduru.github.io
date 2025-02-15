@@ -18,19 +18,36 @@ body.dark-mode {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #444;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font-size: 18px;
+    width: 60px;
+    height: 30px;
+    background: #f4e09d;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
     cursor: pointer;
-    transition: background 0.3s ease, transform 0.2s ease;
+    transition: background 0.3s ease-in-out;
 }
 
-.theme-toggle:hover {
-    background: #666;
-    transform: scale(1.1);
+.theme-toggle .toggle-circle {
+    width: 26px;
+    height: 26px;
+    background: #ffcc00;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+body.dark-mode .theme-toggle {
+    background: #1e3a8a;
+}
+
+body.dark-mode .toggle-circle {
+    background: #5b93d3;
+    transform: translateX(30px);
 }
 
 /* Social Media Icons */
