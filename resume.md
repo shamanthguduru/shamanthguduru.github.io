@@ -13,27 +13,18 @@
             --light-text: #000000;
             --dark-bg: #222;
             --dark-text: #ffffff;
-            --dark-collapsible: #444;
+            --dark-collapsible: #333;
             --light-collapsible: #ddd;
         }
 
         body {
             background-color: var(--light-bg);
             color: var(--light-text);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
 
         .dark-mode {
             background-color: var(--dark-bg);
             color: var(--dark-text);
-        }
-
-        main {
-            width: 80%;
-            max-width: 800px;
-            margin: 50px auto;
         }
 
         h1 {
@@ -51,7 +42,7 @@
             border: none;
             outline: none;
             font-size: 1.1em;
-            margin-top: 10px;
+            margin: 10px 20%;
         }
 
         .dark-mode .collapsible {
@@ -64,6 +55,7 @@
             display: none;
             overflow: hidden;
             background-color: var(--light-bg);
+            margin: 0 20%;
         }
 
         .dark-mode .content {
@@ -112,16 +104,12 @@
             });
 
             const toggleSwitch = document.getElementById("theme-toggle");
-            toggleSwitch.addEventListener("change", function() {
-                document.body.classList.toggle("dark-mode", this.checked);
-            });
+            if (toggleSwitch) {
+                toggleSwitch.addEventListener("change", function() {
+                    document.body.classList.toggle("dark-mode", this.checked);
+                });
+            }
         });
     </script>
-
-    <!-- Theme Toggle Switch -->
-    <div class="toggle-container">
-        <input type="checkbox" id="theme-toggle" class="toggle-checkbox">
-        <label for="theme-toggle" class="toggle-label"></label>
-    </div>
 </body>
 </html>
