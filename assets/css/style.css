@@ -193,3 +193,53 @@ li {
 .certifications img:hover {
     transform: scale(1.05);
 }
+/* Toggle Switch */
+.toggle-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-label {
+    width: 50px;
+    height: 25px;
+    background: #ccc;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.toggle-label::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    transition: left 0.3s, background 0.3s;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+    background: #1e3a8a;
+}
+
+.toggle-checkbox:checked + .toggle-label::after {
+    left: 25px;
+    background: yellow;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
