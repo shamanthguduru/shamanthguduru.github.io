@@ -38,7 +38,7 @@
 
         h1 {
             text-align: left;
-            margin-left: 20px;
+            margin-left: 20%;
         }
 
         .collapsible {
