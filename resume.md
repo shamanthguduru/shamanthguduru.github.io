@@ -83,51 +83,6 @@
             background-color: var(--dark-bg);
             border-left: 3px solid #fff;
         }
-
-        /* Toggle Switch Styles */
-        .toggle-container {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-        }
-
-        .toggle-checkbox {
-            display: none;
-        }
-
-        .toggle-label {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 50px;
-            height: 25px;
-            background-color: #ccc;
-            border-radius: 25px;
-            position: relative;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            padding: 2px;
-        }
-
-        .toggle-label::before {
-            content: '';
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            background-color: white;
-            border-radius: 50%;
-            top: 2.5px;
-            left: 3px;
-            transition: transform 0.3s;
-        }
-
-        .toggle-checkbox:checked + .toggle-label {
-            background-color: var(--accent-color);
-        }
-
-        .toggle-checkbox:checked + .toggle-label::before {
-            transform: translateX(25px);
-        }
     </style>
 </head>
 <body>
@@ -165,19 +120,6 @@
                     content.style.display = content.style.display === "block" ? "none" : "block";
                 });
             });
-
-            const toggleSwitch = document.getElementById("theme-toggle");
-            if (toggleSwitch) {
-                toggleSwitch.addEventListener("change", function() {
-                    document.body.classList.toggle("dark-mode", this.checked);
-                    localStorage.setItem("theme", this.checked ? "dark" : "light");
-                });
-            }
-
-            if (localStorage.getItem("theme") === "dark") {
-                document.body.classList.add("dark-mode");
-                document.getElementById("theme-toggle").checked = true;
-            }
         });
     </script>
 </body>
