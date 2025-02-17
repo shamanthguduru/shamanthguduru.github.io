@@ -246,3 +246,112 @@ body.dark-mode {
     background-color: #121212;
     color: white;
 }
+/* Existing styles (as per your current CSS) */
+
+/* ... */
+
+/* Aesthetic Enhancements */
+
+/* Consistent Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+/* Consistent Headings */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Body Text */
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: var(--light-text);
+}
+
+.dark-mode p {
+    color: var(--dark-text);
+}
+
+/* Button Styling */
+button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* Section Dividers */
+.section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.dark-mode .section {
+    border-bottom: 2px solid #555;
+}
+
+.section:hover {
+    background-color: #f4f4f4;
+}
+
+.dark-mode .section:hover {
+    background-color: #333;
+}
+
+/* Subtle Animations */
+.container, .project, .section {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover, .project:hover, .section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Picture Shadow */
+.profile-pic {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+/* End of Aesthetic Enhancements */
