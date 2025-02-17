@@ -180,11 +180,5 @@
             }
         });
     </script>
-
-    <!-- Theme Toggle Switch -->
-    <div class="toggle-container">
-        <input type="checkbox" id="theme-toggle" class="toggle-checkbox">
-        <label for="theme-toggle" class="toggle-label"></label>
-    </div>
 </body>
 </html>
