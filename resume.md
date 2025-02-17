@@ -23,6 +23,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .dark-mode {
@@ -55,6 +56,7 @@
             font-weight: bold;
             margin: 10px 0;
             border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .dark-mode .collapsible {
@@ -94,7 +96,9 @@
         }
 
         .toggle-label {
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             width: 50px;
             height: 25px;
             background-color: #ccc;
@@ -102,6 +106,7 @@
             position: relative;
             cursor: pointer;
             transition: background-color 0.3s;
+            padding: 2px;
         }
 
         .toggle-label::before {
@@ -157,11 +162,7 @@
                 button.addEventListener("click", function() {
                     this.classList.toggle("active");
                     let content = this.nextElementSibling;
-                    if (content.style.display === "block") {
-                        content.style.display = "none";
-                    } else {
-                        content.style.display = "block";
-                    }
+                    content.style.display = content.style.display === "block" ? "none" : "block";
                 });
             });
 
@@ -169,7 +170,13 @@
             if (toggleSwitch) {
                 toggleSwitch.addEventListener("change", function() {
                     document.body.classList.toggle("dark-mode", this.checked);
+                    localStorage.setItem("theme", this.checked ? "dark" : "light");
                 });
+            }
+
+            if (localStorage.getItem("theme") === "dark") {
+                document.body.classList.add("dark-mode");
+                document.getElementById("theme-toggle").checked = true;
             }
         });
     </script>
