@@ -66,12 +66,14 @@
 
         .collapsible:hover {
             background-color: var(--accent-color);
+            transform: scale(1.05);
             color: #fff;
         }
 
         .content {
             padding: 10px 15px;
             display: none;
+            tansition: max-height 0.3 ease-in-out;
             overflow: hidden;
             background-color: var(--light-bg);
             border-left: 3px solid var(--accent-color);
