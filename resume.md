@@ -126,7 +126,7 @@
     </script>
 </body>
 </html>
-<a href="resume.pdf" download>
+<a href="Resume.pdf" download>
     <button style="padding: 10px 20px; font-size: 16px; border-radius: 8px; background-color: #007bff; color: white; border: none; cursor: pointer;">
         📄 Download Resume
     </button>
