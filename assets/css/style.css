@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: white;
     color: black;
     text-align: center;
@@ -12,7 +12,6 @@ body.dark-mode {
     background-color: #121212;
     color: white;
 }
-
 
 /* Theme Toggle Button */
 .theme-toggle {
@@ -36,18 +35,14 @@ body.dark-mode {
     background: #ffcc00;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
 }
 
 body.dark-mode .theme-toggle {
-    background: #1e3a8a;
+    background: #444;
 }
 
 body.dark-mode .toggle-circle {
-    background: #5b93d3;
+    background: #bbb;
     transform: translateX(30px);
 }
 
@@ -76,10 +71,16 @@ body.dark-mode .social-links a {
 
 /* Profile Picture */
 .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     border: 3px solid white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
 }
 
 /* Hero Section */
@@ -87,21 +88,39 @@ body.dark-mode .social-links a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    justify-content: center;
+    height: 60vh;
+    padding: 20px;
+    text-align: center;
 }
 
-h1 {
-    font-size: 36px;
+.hero h1 {
+    font-size: 2.5rem;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
-h2 {
-    font-size: 20px;
-    font-weight: lighter;
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.8;
 }
 
-a {
-    color: #ffd700;
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffcc00;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: #e6b800;
 }
 
 /* Containers */
@@ -122,205 +141,38 @@ body.dark-mode .container {
 
 /* Navbar */
 header {
-    position: relative;
     padding: 10px;
-}
-
-.hamburger {
-    font-size: 24px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: black;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-body.dark-mode .hamburger {
-    color: white;
-}
-
-nav {
-    display: none;
-    background: #1e3a8a;
-    padding: 10px;
-    border-radius: 8px;
-    position: absolute;
-    top: 50px;
-    left: 10px;
-    text-align: left;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    margin: 10px 0;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav.show {
-    display: block;
-}
-
-/* Fix for unwanted bullet points */
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-.certifications img {
-    max-width: 300px;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.certifications img:hover {
-    transform: scale(1.05);
-}
-/* Toggle Switch */
-.toggle-container {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    z-index: 100;
 }
 
-.toggle-checkbox {
-    display: none;
+.nav-links {
+    display: flex;
+    gap: 20px;
 }
 
-.toggle-label {
-    width: 50px;
-    height: 25px;
-    background: #f4e09d;
-    border-radius: 25px;
-    position: relative;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
-}
-
-.toggle-label::after {
-    content: "";
-    width: 20px;
-    height: 20px;
-    background: white;
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    transition: left 0.3s ease-in-out, background 0.3s ease-in-out;
-}
-
-.toggle-checkbox:checked + .toggle-label {
-    background: #1e3a8a;
-}
-
-.toggle-checkbox:checked + .toggle-label::after {
-    left: 25px;
-    background: yellow;
-}
-
-
-/* Dark Mode Styles */
-body.dark-mode {
-    background-color: #121212;
-    color: white;
-}
-/* Existing styles (as per your current CSS) */
-
-/* ... */
-
-/* Aesthetic Enhancements */
-
-/* Consistent Typography */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    letter-spacing: 0.5px;
-}
-
-/* Consistent Headings */
-h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    margin: 20px 0;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-/* Body Text */
-p {
-    font-size: 1rem;
-    margin-bottom: 15px;
-    color: var(--light-text);
-}
-
-.dark-mode p {
-    color: var(--dark-text);
-}
-
-/* Button Styling */
-button {
-    background-color: var(--accent-color);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-}
-
-/* Links */
-a {
-    color: var(--accent-color);
+.nav-links a {
+    color: black;
     text-decoration: none;
-    transition: color 0.3s ease;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
-a:hover {
-    color: #fff;
+body.dark-mode .nav-links a {
+    color: white;
 }
 
-/* Section Dividers */
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+/* Section Styling */
 .section {
     padding: 40px 20px;
     margin: 20px 0;
     border-bottom: 2px solid #ddd;
+    transition: background 0.3s ease-in-out;
 }
 
 .dark-mode .section {
@@ -336,23 +188,11 @@ a:hover {
 }
 
 /* Subtle Animations */
-.container, .project, .section {
+.container, .section {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.container:hover, .project:hover, .section:hover {
+.container:hover, .section:hover {
     transform: translateY(-5px);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
-
-/* Profile Picture Shadow */
-.profile-pic {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.profile-pic:hover {
-    transform: scale(1.05);
-}
-
-/* End of Aesthetic Enhancements */
-
