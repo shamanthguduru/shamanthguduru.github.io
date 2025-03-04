@@ -220,3 +220,6 @@ body.dark-mode #darkModeToggle {
     background: #444;
     color: white;
 }
+.hamburger-menu {
+    display: none !important;
+}
