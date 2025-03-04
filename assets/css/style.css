@@ -223,3 +223,12 @@ body.dark-mode #darkModeToggle {
 .hamburger-menu {
     display: none !important;
 }
+ul {
+    list-style: none;  /* Remove default bullet points */
+    padding-left: 0;   /* Align list items properly */
+}
+
+ul li {
+    position: relative;
+    padding-left: 20px; /* Adjust spacing */
+}
