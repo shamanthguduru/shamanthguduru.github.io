@@ -14,7 +14,8 @@ title: "Shamanth Guduru's Portfolio"
 Short description of your project.
 
 ### 📊 **Project 2** – [View Project](#)
-Short description of your project.coming soon
+Short description of your project.coming 
+soon
 
 <h2>📜 Certifications</h2>
 <ul>
