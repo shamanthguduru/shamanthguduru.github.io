@@ -251,7 +251,7 @@ ul li {
     transform: scale(1.05);
 }
 .certification-image {
-    max-width: 60%;  /* Limits image width */
+    max-width: 50%;  /* Limits image width */
     height: auto;  /* Maintains aspect ratio */
     display: block;
     margin: 15px auto;  /* Centers the image */
