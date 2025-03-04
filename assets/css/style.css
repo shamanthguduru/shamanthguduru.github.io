@@ -232,3 +232,15 @@ ul li {
     position: relative;
     padding-left: 20px; /* Adjust spacing */
 }
+.certifications-container a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.certifications-container a:hover {
+    transform: scale(1.05);
+    color: #ffcc00;
+}
