@@ -251,16 +251,16 @@ ul li {
     transform: scale(1.05);
 }
 .certification-image {
-    max-width: 80%;  /* Limits image width */
+    max-width: 60%;  /* Limits image width */
     height: auto;  /* Maintains aspect ratio */
     display: block;
-    margin: 20px auto;  /* Centers the image */
-    border-radius: 10px;  /* Slight rounded corners */
+    margin: 15px auto;  /* Centers the image */
+    border-radius: 8px;  /* Slight rounded corners */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .certification-image:hover {
-    transform: scale(1.05);  /* Hover zoom effect */
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);  /* Hover zoom effect */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
