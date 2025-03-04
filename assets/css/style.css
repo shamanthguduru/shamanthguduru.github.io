@@ -244,3 +244,9 @@ ul li {
     transform: scale(1.05);
     color: #ffcc00;
 }
+.certification-image {
+    transition: transform 0.3s ease-in-out;
+}
+.certification-image:hover {
+    transform: scale(1.05);
+}
