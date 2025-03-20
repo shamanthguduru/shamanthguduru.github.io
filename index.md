@@ -81,17 +81,17 @@
     <h3 class="text-3xl font-semibold mb-4">Let's Connect</h3>
     <p class="mb-4">Feel free to reach out for collaborations, opportunities, or just a friendly chat!</p>
     <div class="flex justify-center space-x-6 mb-6">
-      <a href="https://linkedin.com/in/yourlinkedin" target="_blank" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">
+      <a href="https://www.linkedin.com/in/shamanth-guduru/" target="_blank" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">
         <i data-feather="linkedin" class="w-6 h-6"></i>
       </a>
-      <a href="https://github.com/yourusername" target="_blank" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">
+      <a href="https://github.com/shamanthguduru" target="_blank" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">
         <i data-feather="github" class="w-6 h-6"></i>
       </a>
-      <a href="mailto:youremail@example.com" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">
+      <a href="mailto:shamanthguduru@gmail.com" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">
         <i data-feather="mail" class="w-6 h-6"></i>
       </a>
     </div>
-    <a href="mailto:youremail@example.com" class="bg-blue-500 text-white px-6 py-3 rounded-full shadow hover:bg-blue-600">Email Me</a>
+    <a href="mailto:shamanthguduru@gmail.com" class="bg-blue-500 text-white px-6 py-3 rounded-full shadow hover:bg-blue-600">Email Me</a>
   </section>
 
   <footer class="p-6 bg-white dark:bg-gray-900 dark:text-gray-100 text-center text-sm">
