@@ -76,7 +76,34 @@
       </li>
     </ul>
   </section>
+  
+<section id="resume" class="p-12 bg-gray-100 dark:bg-gray-800 dark:text-gray-100 text-center">
+    <h3 class="text-3xl font-semibold mb-6">My Resume</h3>
+    <div class="max-w-2xl mx-auto space-y-4 text-left">
+      <div class="bg-gray-200 dark:bg-gray-700 rounded-md p-4">
+        <button onclick="toggleContent('edu')" class="w-full text-left font-semibold">Education</button>
+        <div id="edu" class="hidden mt-2">Master's in Business Analytics, XYZ University</div>
+      </div>
+      <div class="bg-gray-200 dark:bg-gray-700 rounded-md p-4">
+        <button onclick="toggleContent('work')" class="w-full text-left font-semibold">Work Experience</button>
+        <div id="work" class="hidden mt-2">Data Analyst Intern at ABC Corp – Analyzed sales data, improved reporting systems.</div>
+      </div>
+      <div class="bg-gray-200 dark:bg-gray-700 rounded-md p-4">
+        <button onclick="toggleContent('skills')" class="w-full text-left font-semibold">Skills</button>
+        <div id="skills" class="hidden mt-2">Python, SQL, Tableau, Power BI, Excel, Machine Learning</div>
+      </div>
+      <div class="bg-gray-200 dark:bg-gray-700 rounded-md p-4">
+        <button onclick="toggleContent('leadership')" class="w-full text-left font-semibold">Leadership</button>
+        <div id="leadership" class="hidden mt-2">Lead Data Team at XYZ Analytics Club.</div>
+      </div>
+    </div>
 
+    <div class="mt-8">
+      <a href="https://shamanthguduru.github.io/resume" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-full shadow hover:bg-blue-600">View Resume</a>
+      <a href="/shamanthguduru.github.io/Resume.pdf" download class="ml-4 bg-green-500 text-white px-6 py-3 rounded-full shadow hover:bg-green-600">Download Resume</a>
+    </div>
+  </section>
+  
   <section id="contact" class="p-12 bg-gray-100 dark:bg-gray-800 dark:text-gray-100 text-center">
     <h3 class="text-3xl font-semibold mb-4">Let's Connect</h3>
     <p class="mb-4">Feel free to reach out for collaborations, opportunities, or just a friendly chat!</p>
